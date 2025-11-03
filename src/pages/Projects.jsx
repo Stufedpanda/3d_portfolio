@@ -13,7 +13,7 @@ const Projects = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          short blurb about ionterests and projects
+          Here are the collection of projects that I have worked on in the past, both professionally or personally as a passion project.
         </p>
       </div>
 
