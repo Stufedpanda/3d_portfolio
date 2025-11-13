@@ -1,4 +1,5 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
+        
 import {
     car,
     contact,
@@ -23,7 +24,14 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    postgresql,
+    csharp,
+    matlab,
+    neo4j,
+    python,
+    pytorch,
+    threejs,
 } from "../assets/icons";
 
 export const skills = [
@@ -32,11 +40,11 @@ export const skills = [
         name: "CSS",
         type: "Frontend",
     },
-    {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
+    // {
+    //     imageUrl: express,
+    //     name: "Express",
+    //     type: "Backend",
+    // },
     {
         imageUrl: git,
         name: "Git",
@@ -57,16 +65,16 @@ export const skills = [
         name: "JavaScript",
         type: "Frontend",
     },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
+    // {
+    //     imageUrl: mongodb,
+    //     name: "MongoDB",
+    //     type: "Database",
+    // },
+    // {
+    //     imageUrl: motion,
+    //     name: "Motion",
+    //     type: "Animation",
+    // },
     {
         imageUrl: mui,
         name: "Material-UI",
@@ -92,11 +100,11 @@ export const skills = [
         name: "Redux",
         type: "State Management",
     },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
+    // {
+    //     imageUrl: sass,
+    //     name: "Sass",
+    //     type: "Frontend",
+    // },
     {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
@@ -106,7 +114,62 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    {
+        imageUrl: postgresql,
+        name: "PostGreSQL",
+        type: "Frontend",
+    },
+    {
+        imageUrl: matlab,
+        name: "MATLAB",
+        type: "Frontend",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Frontend",
+    },
+    {
+        imageUrl: csharp,
+        name: "C#",
+        type: "Frontend",
+    },
+    {
+        imageUrl: pytorch,
+        name: "PyTorch",
+        type: "Frontend",
+    },
+    {
+        imageUrl: neo4j,
+        name: "Neo4j",
+        type: "Frontend",
+    },
+    {
+        imageUrl: threejs,
+        name: "Three.js",
+        type: "Frontend",
+    },
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // },
 ];
 
 export const experiences = [
@@ -124,11 +187,11 @@ export const experiences = [
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Fullstack Software Developer",
+        company_name: "Safuture Inc.",
         icon: tesla,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "May 2023 – May 2024",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -136,49 +199,49 @@ export const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#b7e4c7",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#a2d2ff",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 export const socialLinks = [
-    {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
+    // {
+    //     name: 'Contact',
+    //     iconUrl: contact,
+    //     link: '/contact',
+    // },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Stufedpanda',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/forbes-li/',
     }
 ];
 

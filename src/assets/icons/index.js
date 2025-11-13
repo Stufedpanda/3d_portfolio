@@ -26,6 +26,13 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import postgresql from './postgresql-original.svg'
+import csharp from './csharp-original.svg'
+import matlab from './matlab-original.svg'
+import neo4j from './neo4j-original.svg'
+import python from './python-original.svg'
+import pytorch from './pytorch-original.svg'
+import threejs from './threejs-original.svg'
 
 export {
     css,
@@ -55,5 +62,12 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    postgresql,
+    csharp,
+    matlab,
+    neo4j,
+    python,
+    pytorch,
+    threejs,
 }
