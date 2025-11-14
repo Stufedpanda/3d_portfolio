@@ -50,10 +50,17 @@ function About() {
                     key={experience.company_name}
                     date={experience.date}
                     icon={<div className='flex justify-center items-center w-full h-full'>
+                      {experience.icon ? (
                       <img 
                         src={experience.icon} 
                         alt={experience.company_name} 
                         className='w-[60%] h-[60%] object-contain' />
+                      ) : (
+                        <span className="text-2xl font-semibold text-white">
+                          {experience.company_name[0]}
+                        </span>
+                      )
+                    }
                     </div>}
                     contentStyle={{
                       borderBottom: '8px',

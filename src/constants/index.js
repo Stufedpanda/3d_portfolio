@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, rnalab } from "../assets/images";
         
 import {
     car,
@@ -176,7 +176,7 @@ export const experiences = [
     {
         title: "Research Engineer",
         company_name: "RNALab, University of Toronto",
-        icon: starbucks,
+        icon: rnalab,
         iconBg: "#accbe1",
         date: " Sept 2024 – May 2025",
         points: [
@@ -189,7 +189,6 @@ export const experiences = [
     {
         title: "Fullstack Software Developer",
         company_name: "Safuture Inc.",
-        icon: tesla,
         iconBg: "#fbc3bc",
         date: "May 2023 – May 2024",
         points: [
